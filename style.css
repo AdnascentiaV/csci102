@@ -1,0 +1,21 @@
+* {
+    background-color: #333333;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+li {
+    padding-right: 10px;
+    display: inline;
+}
+
+footer {
+    width: 100%;
+    padding: none;
+    margin: none;
+    text-align: center;
+}
