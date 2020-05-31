@@ -35,6 +35,9 @@ nav {
     margin: auto;
 }
 
+nav h1 {
+    margin-bottom: 10px;
+}
 
 ul {
     display: block;
