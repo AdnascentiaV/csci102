@@ -31,32 +31,25 @@ main {
     width: 80%;
     margin: 50px auto;
 }
-nav {
-    margin: auto;
-}
 
-nav h1 {
+h1 {
     margin-bottom: 10px;
 }
 
-ul {
-    display: block;
-    margin: auto;
-    list-style: none;
-}
-
-li {
-    margin-right: 10px;
-    display: inline;
-}
-
-ul li a {
-    line-height: 3em;
+.labs {
+    margin: 5px;
+    line-height: 4em;
     font-size: 1.5em;
     background-color: #333333;
     padding: 20px;
     text-decoration: none;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 0px 0px 30px grey;
+    white-space: nowrap;
+    transition: .09s;
+}
+
+.labs:hover {
+    box-shadow: 0px 0px 30px white;
 }
 
 footer {
@@ -64,4 +57,22 @@ footer {
     padding: none;
     margin: none;
     text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    header h1 {
+        font-size: 3em;
+        margin: auto 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 2em;
+        margin: auto 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
 }
