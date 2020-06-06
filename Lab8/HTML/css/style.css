@@ -39,6 +39,11 @@
     margin-left: auto;   
 }
 
+video, embed {
+    float: right;
+    margin: 2em;
+}
+
 body {
     background-color: #3399cc;
     background-image: linear-gradient(to bottom, #3399cc,#c2e0f0,#3399cc);
